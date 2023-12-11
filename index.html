@@ -9,8 +9,8 @@
     <body>
         <div class="wrapper">
             <div class="header">
-                <div class="container">
-                    <div class="container-left">
+                <div class="inner">
+                    <div class="container-left fl">
                         <div class="logo">
                             <img
                                 src="https://heropcode.github.io/GitHub-Responsive/img/logo.svg"
@@ -18,26 +18,43 @@
                             />
                         </div>
                         <div class="menu">
-                            <div class="menu-item">Personal</div>
-                            <div class="menu-item">Open Source</div>
-                            <div class="menu-item">Business</div>
-                            <div class="menu-item">Explore</div>
+                            <div class="menu-item">
+                                <a href="#none">Personal</a>
+                            </div>
+                            <div class="menu-item">
+                                <a href="#none">Open Source</a>
+                            </div>
+                            <div class="menu-item">
+                                <a href="#none">Business</a>
+                            </div>
+                            <div class="menu-item">
+                                <a href="#none">Explore</a>
+                            </div>
                         </div>
                     </div>
                     <div class="container-right">
                         <ul>
-                            <li><a href="#none">Pricing</li>
-                            <li><a href="none">Blog</li>
-                            <li><a href="none">Support</li>
+                            <li><a href="#none">Pricing</a></li>
+                            <li><a href="none">Blog</a></li>
+                            <li><a href="none">Support</a></li>
                         </ul>
-                        <input type="text" name="" id="">
-                        <div>
+                        <form id="search-form" method="post" action="">
+                            <input
+                                id="search"
+                                class="input--text"
+                                type="text"
+                                placeholder="Search GitHub"
+                            />
+                            <input type="submit" />
+                        </form>
+                        <div class="btn-group">
                             <a href="http://">Sign in</a>
                             <a href="http://">Sign up</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <section class="main-visual"></section>
         </div>
     </body>
 </html>
